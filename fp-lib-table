@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DS100M08KV")(type "KiCad")(uri "${KIPRJMOD}/DS100M08KV2.pretty")(options "")(descr ""))
+)
