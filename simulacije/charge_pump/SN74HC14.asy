@@ -5,7 +5,7 @@ WINDOW 0 8 -40 Bottom 2
 WINDOW 3 8 73 Top 2
 SYMATTR Prefix X
 SYMATTR Value SN74HC14
-SYMATTR ModelFile E:\Elektronika\diff_probe\DS100M08KV2\simulacije\charge_pump\SN74HC14.cir
+SYMATTR ModelFile SN74HC14.cir
 PIN 64 16 RIGHT 8
 PINATTR PinName Y
 PINATTR SpiceOrder 1

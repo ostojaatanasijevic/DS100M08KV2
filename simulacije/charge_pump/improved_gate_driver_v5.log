@@ -1,0 +1,53 @@
+Circuit: * C:\users\ostoja\Desktop\Elektronika\diff_sonde\DS100M08KV2\simulacije\charge_pump\improved_gate_driver_v5.asc
+
+WARNING: Less than two connections to node LOSSES.  This node is used by B3.
+WARNING: Less than two connections to node EFFICIENCY.  This node is used by B4.
+WARNING: Less than two connections to node U1:U1:UA:TEST.  This node is used by E:U1:U1:UA:TEST.
+WARNING: Less than two connections to node U1:U1:UA:VTH_DIFF.  This node is used by E:U1:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U1:U1:UB:TEST.  This node is used by E:U1:U1:UB:TEST.
+WARNING: Less than two connections to node U1:U1:UB:VTH_DIFF.  This node is used by E:U1:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U2:U1:UA:TEST.  This node is used by E:U2:U1:UA:TEST.
+WARNING: Less than two connections to node U2:U1:UA:VTH_DIFF.  This node is used by E:U2:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U2:U1:UB:TEST.  This node is used by E:U2:U1:UB:TEST.
+WARNING: Less than two connections to node U2:U1:UB:VTH_DIFF.  This node is used by E:U2:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U3:U1:UA:TEST.  This node is used by E:U3:U1:UA:TEST.
+WARNING: Less than two connections to node U3:U1:UA:VTH_DIFF.  This node is used by E:U3:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U3:U1:UB:TEST.  This node is used by E:U3:U1:UB:TEST.
+WARNING: Less than two connections to node U3:U1:UB:VTH_DIFF.  This node is used by E:U3:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U4:U1:UA:TEST.  This node is used by E:U4:U1:UA:TEST.
+WARNING: Less than two connections to node U4:U1:UA:VTH_DIFF.  This node is used by E:U4:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U4:U1:UB:TEST.  This node is used by E:U4:U1:UB:TEST.
+WARNING: Less than two connections to node U4:U1:UB:VTH_DIFF.  This node is used by E:U4:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U5:U1:UA:TEST.  This node is used by E:U5:U1:UA:TEST.
+WARNING: Less than two connections to node U5:U1:UA:VTH_DIFF.  This node is used by E:U5:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U5:U1:UB:TEST.  This node is used by E:U5:U1:UB:TEST.
+WARNING: Less than two connections to node U5:U1:UB:VTH_DIFF.  This node is used by E:U5:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node U6:U1:UA:TEST.  This node is used by E:U6:U1:UA:TEST.
+WARNING: Less than two connections to node U6:U1:UA:VTH_DIFF.  This node is used by E:U6:U1:UA:VTHDIFF.
+WARNING: Less than two connections to node U6:U1:UB:TEST.  This node is used by E:U6:U1:UB:TEST.
+WARNING: Less than two connections to node U6:U1:UB:VTH_DIFF.  This node is used by E:U6:U1:UB:VTHDIFF.
+WARNING: Less than two connections to node N006.  This node is used by D5.
+Per .tran options, skipping operating point for transient analysis.
+Changing Tseed to 4.88281e-010
+Changing Tseed to 4.88281e-012
+Changing Tseed to 4.88281e-009
+Changing Tseed to 4.88281e-013
+
+Date: Sat Oct 25 14:55:00 2025
+Total elapsed time: 29.339 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 595292
+traniter = 595292
+tranpoints = 144840
+accept = 108475
+rejected = 36361
+matrix size = 766
+fillins = 305
+solver = Normal
+Thread vector: 88.3/32.5[14] 2.3/3.5[1] 30.5/6.9[14] 0.8/15.7[1]  2592/500
+Matrix Compiler1: 35.60 KB object code size  8.8/3.7/[1.6]
+Matrix Compiler2: 48.42 KB object code size  3.4/5.4/[1.8]
+
