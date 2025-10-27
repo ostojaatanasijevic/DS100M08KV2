@@ -112,7 +112,7 @@
 		(uuid "af4d1229-107c-4970-bd9e-6c229b0cd3b6")
 	)
 	(embedded_fonts no)
-	(model "${DS100M06V}/18650_LI-ON_Battery_Holder_1042P.STEP"
+	(model "${KIPRJMOD}/DS100M08KV.pretty/18650_LI-ON_Battery_Holder_1042P.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
