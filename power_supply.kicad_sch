@@ -8881,28 +8881,6 @@
 			)
 		)
 	)
-	(global_label "-BAT"
-		(shape input)
-		(at 245.11 264.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6db908d4-1fcb-4025-b321-53c3cbb0b283")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.9938 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+BAT"
 		(shape output)
 		(at 116.84 245.11 0)
@@ -16160,6 +16138,73 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 245.11 264.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e66449c-4853-4a72-a212-cb7594dd6398")
+		(property "Reference" "#PWR051"
+			(at 241.3 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 248.92 264.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 245.11 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff188594-0e8b-404a-9b8f-59ebd597f42b")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
