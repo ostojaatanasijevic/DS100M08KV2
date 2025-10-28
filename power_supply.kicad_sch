@@ -5755,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 264.16) (xy 180.34 264.16)
+			(xy 179.07 264.16) (xy 185.42 264.16)
 		)
 		(stroke
 			(width 0)
@@ -5785,7 +5785,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.998 104.14) (xy 110.998 107.95)
+			(xy 111.76 104.14) (xy 111.76 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6145,7 +6145,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 243.84) (xy 201.93 256.54)
+			(xy 207.01 243.84) (xy 207.01 256.54)
 		)
 		(stroke
 			(width 0)
@@ -6565,7 +6565,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 243.84) (xy 201.93 243.84)
+			(xy 210.82 243.84) (xy 207.01 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6685,7 +6685,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 248.92) (xy 185.42 248.92)
+			(xy 210.82 248.92) (xy 190.5 248.92)
 		)
 		(stroke
 			(width 0)
@@ -6902,6 +6902,16 @@
 			(type default)
 		)
 		(uuid "6f4069ac-d035-4a94-90b8-4b9a9e861918")
+	)
+	(wire
+		(pts
+			(xy 237.49 266.7) (xy 237.49 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7084387d-8c9d-40a6-9d97-dc1cffbbf46a")
 	)
 	(wire
 		(pts
@@ -7255,7 +7265,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 248.92) (xy 185.42 256.54)
+			(xy 190.5 248.92) (xy 190.5 256.54)
 		)
 		(stroke
 			(width 0)
@@ -7565,7 +7575,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 264.16) (xy 207.01 264.16)
+			(xy 237.49 264.16) (xy 212.09 264.16)
 		)
 		(stroke
 			(width 0)
@@ -7795,7 +7805,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 264.16) (xy 196.85 264.16)
+			(xy 195.58 264.16) (xy 201.93 264.16)
 		)
 		(stroke
 			(width 0)
@@ -7895,7 +7905,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 254) (xy 220.98 257.81)
+			(xy 220.98 254) (xy 220.98 255.27)
 		)
 		(stroke
 			(width 0)
@@ -7962,16 +7972,6 @@
 			(type default)
 		)
 		(uuid "cc54752f-a581-4bbc-bea5-5d54872341b0")
-	)
-	(wire
-		(pts
-			(xy 245.11 264.16) (xy 237.49 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc6b3578-70ce-4279-88f4-8dcf4cfb8849")
 	)
 	(wire
 		(pts
@@ -8145,7 +8145,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 66.04) (xy 187.96 67.31)
+			(xy 187.96 66.04) (xy 187.96 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8245,7 +8245,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.998 93.98) (xy 110.998 96.52)
+			(xy 111.76 93.98) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8565,7 +8565,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 73.66) (xy 279.4 74.93)
+			(xy 279.4 73.66) (xy 279.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8813,28 +8813,6 @@
 			)
 		)
 	)
-	(global_label "+BAT"
-		(shape input)
-		(at 172.72 231.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2aeae594-a207-4054-82b8-330a8b1b7e83")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.8362 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "-VIN"
 		(shape input)
 		(at 181.61 173.99 180)
@@ -8892,28 +8870,6 @@
 		(uuid "543e74b0-31e1-4cc8-97f4-17d835795dca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.1115 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+BAT"
-		(shape output)
-		(at 116.84 245.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f2d0560-c150-456f-9948-155c5fc82c01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.7238 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,138 +9157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 85.09 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "005ef15c-9498-4a4c-9cbc-4563d4bd4c00")
-		(property "Reference" "#PWR05"
-			(at 85.09 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 85.09 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 85.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61b81860-80a2-4ac0-bbbc-174dde790eb7")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 31.75 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00b3aa8c-e84e-4bc7-9dff-e08a1a3d106f")
-		(property "Reference" "#PWR025"
-			(at 31.75 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 31.75 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 31.75 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48220047-cb8e-406f-811b-9ea00f4a55d3")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Reference_Voltage:TL431DBZ")
 		(at 281.94 132.08 270)
 		(mirror x)
@@ -9480,6 +9304,73 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 90.17 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "064f1fa8-d623-4cda-8292-37436c975083")
+		(property "Reference" "#PWR026"
+			(at 90.17 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 90.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b11d85-6d28-4fca-9e5e-c0d8e3e0e1ba")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9850,6 +9741,73 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 111.76 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "130097b7-5361-4fe0-9532-b542830a186a")
+		(property "Reference" "#PWR037"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb7906a0-307a-41ed-b5a7-5f9c78a3114f")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10556,73 +10514,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 220.98 257.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2db96d3e-a285-4493-966b-044eb1672bdb")
-		(property "Reference" "#PWR013"
-			(at 220.98 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 220.98 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 220.98 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06badea2-db84-41b2-ae9c-a522333fdb91")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 90.17 162.56 90)
 		(unit 1)
@@ -10777,72 +10668,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 55.88 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30454651-7951-4eb6-8820-306c33a962ed")
-		(property "Reference" "#PWR06"
-			(at 55.88 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 55.88 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 55.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13bea6af-8c07-4554-a945-4072c4c4cd0c")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 113.03 227.33 180)
 		(unit 1)
@@ -10907,72 +10732,6 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 102.87 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31d3c14b-8113-41e4-be07-c15ec2b374ff")
-		(property "Reference" "#PWR027"
-			(at 102.87 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 102.87 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 102.87 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6de72eeb-b1c3-4d02-88ba-60ac2c5fc131")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11626,6 +11385,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 85.09 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af879ba-6c4e-4b61-8127-2fb126bb8952")
+		(property "Reference" "#PWR015"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 85.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98f465f2-d5dd-4388-90e3-3f8399696e6a")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 185.42 110.49 0)
 		(mirror x)
@@ -12085,72 +11911,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 116.84 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "466a20d0-0c56-4613-89fb-36d39e9b0d3f")
-		(property "Reference" "#PWR037"
-			(at 116.84 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 116.84 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c866471-58ad-4ab7-b6ce-066ec46265a1")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 367.03 66.04 0)
 		(mirror y)
@@ -12232,7 +11992,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 110.998 100.33 180)
+		(at 111.76 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12240,7 +12000,7 @@
 		(dnp no)
 		(uuid "48cb5f97-11f4-4018-9b87-57b2107dc8a0")
 		(property "Reference" "C64"
-			(at 107.442 101.6 0)
+			(at 108.204 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12249,7 +12009,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 107.442 99.06 0)
+			(at 108.204 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12258,7 +12018,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 110.998 100.33 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12267,7 +12027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.998 100.33 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12276,7 +12036,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 110.998 100.33 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12781,6 +12541,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 127 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5905d1f1-4026-400c-924f-606998ed89ea")
+		(property "Reference" "#PWR028"
+			(at 127 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 127 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 127 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb457ae9-d527-4719-8665-c93cef5915be")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 91.44 31.75 0)
 		(mirror y)
@@ -13206,72 +13033,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 40.64 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61cfc461-91bb-47ec-a4d9-403df303339a")
-		(property "Reference" "#PWR014"
-			(at 40.64 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 40.64 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 40.64 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bfce4cd-bee3-4f3b-8264-250f7dc91a8c")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 208.28 154.94 180)
 		(unit 1)
@@ -13464,16 +13225,16 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 177.8 264.16 270)
+		(at 40.64 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6de17eac-2d04-4f09-875c-34ca2c3997e1")
-		(property "Reference" "#PWR011"
-			(at 171.45 264.16 0)
+		(uuid "6ca2a586-1273-4730-8789-a9b5b032b8c0")
+		(property "Reference" "#PWR06"
+			(at 40.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13482,7 +13243,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 172.72 264.16 0)
+			(at 40.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13491,7 +13252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 264.16 0)
+			(at 40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13500,7 +13261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 264.16 0)
+			(at 40.64 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +13270,140 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 177.8 264.16 0)
+			(at 40.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74084662-24f6-405d-8e9b-573a9812f338")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 220.98 255.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d1c2b54-acac-40f1-a461-28ab347f3e07")
+		(property "Reference" "#PWR054"
+			(at 220.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 220.98 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 220.98 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d20373c-e0c9-46ec-8886-fd35a682bbef")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 237.49 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6de17eac-2d04-4f09-875c-34ca2c3997e1")
+		(property "Reference" "#PWR011"
+			(at 237.49 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 237.49 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 237.49 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13772,7 +13666,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 110.998 93.98 0)
+		(at 111.76 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13782,7 +13676,7 @@
 		(fields_autoplaced yes)
 		(uuid "71832faa-7a32-4bcb-869e-bb3007d3145b")
 		(property "Reference" "#PWR038"
-			(at 110.998 97.79 0)
+			(at 111.76 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13791,7 +13685,7 @@
 			)
 		)
 		(property "Value" "-VIN"
-			(at 110.998 88.9 0)
+			(at 111.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13799,7 +13693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.998 93.98 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13808,7 +13702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.998 93.98 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13817,7 +13711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 110.998 93.98 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14134,139 +14028,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 135.89 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76b9dc7c-ff6e-43be-a886-00b4f0a5fc72")
-		(property "Reference" "#PWR035"
-			(at 135.89 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 135.89 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 135.89 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55de1a98-40b1-43b5-af0d-6e3877b54b4a")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 185.42 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79ab41f4-5856-48c3-9336-b3a68ee32558")
-		(property "Reference" "#PWR012"
-			(at 185.42 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 185.42 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 185.42 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53fa7785-534e-4fa8-8870-a3f0ab885b71")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 198.12 139.7 180)
 		(unit 1)
@@ -14538,6 +14299,73 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 187.96 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7db12ec5-e08a-4055-b032-64110f51b2b1")
+		(property "Reference" "#PWR03"
+			(at 187.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 187.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ee68130-9a5a-43c7-bc52-29cb75e390fb")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15194,7 +15022,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS123")
-		(at 185.42 261.62 270)
+		(at 190.5 261.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15203,7 +15031,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aabe9ca-7665-4b5e-93cc-9dcc44ee38b8")
 		(property "Reference" "Q3"
-			(at 185.42 267.97 90)
+			(at 190.5 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15211,7 +15039,7 @@
 			)
 		)
 		(property "Value" "CMSN3416K-HF"
-			(at 185.42 270.51 90)
+			(at 190.5 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15219,7 +15047,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 183.515 266.7 0)
+			(at 188.595 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15230,7 +15058,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/QW-JTR77_CMSN3416K-HF_RevA-1847012.pdf"
-			(at 181.61 266.7 0)
+			(at 186.69 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15240,7 +15068,7 @@
 			)
 		)
 		(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-			(at 185.42 261.62 0)
+			(at 190.5 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15564,6 +15392,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 55.88 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90fcf5f6-0de5-4c78-b93d-263fae5b6a25")
+		(property "Reference" "#PWR014"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 55.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ab4b47d-7bd5-4fa6-bd00-5d3b6b81e205")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 99.06 49.53 270)
 		(mirror x)
@@ -15634,6 +15529,73 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 116.84 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93fb457f-7351-4fb3-89d9-2106acf8f355")
+		(property "Reference" "#PWR039"
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 116.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 116.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79c5b440-ae06-4e38-9811-99732b06715b")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15875,73 +15837,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 110.998 107.95 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "975e9ede-85e9-4a45-baad-6b06c99a2903")
-		(property "Reference" "#PWR039"
-			(at 110.998 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 110.998 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.998 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.998 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 110.998 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e933ccb6-044f-4766-a240-7bbd8d77ad45")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 275.59 152.4 180)
 		(unit 1)
@@ -16143,72 +16038,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 279.4 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cfcb909-cb8a-422c-9e8a-df8317887cda")
-		(property "Reference" "#PWR04"
-			(at 279.4 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 279.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 279.4 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0069ee7-2d55-4e7b-9df0-04be9dd4bbed")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 300.99 167.64 0)
 		(mirror x)
@@ -16298,7 +16127,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 245.11 264.16 270)
+		(at 179.07 264.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16307,7 +16136,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e66449c-4853-4a72-a212-cb7594dd6398")
 		(property "Reference" "#PWR051"
-			(at 241.3 264.16 0)
+			(at 182.88 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16316,16 +16145,15 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 248.92 264.1599 90)
+			(at 177.8 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 264.16 0)
+			(at 179.07 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16334,7 +16162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 264.16 0)
+			(at 179.07 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16343,7 +16171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 245.11 264.16 0)
+			(at 179.07 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16358,6 +16186,140 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 135.89 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0ea0602-0fb8-4ace-b876-00ca7a651a5b")
+		(property "Reference" "#PWR035"
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b0d65bf-633b-4c5f-8baf-aa9e9f7bdaaf")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 172.72 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3770194-93e9-4202-af9b-0b3f15358494")
+		(property "Reference" "#PWR013"
+			(at 176.53 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 168.91 231.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 172.72 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a037347-f0b5-4bd7-8c01-f29a9534b8dd")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -16779,6 +16741,73 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "#GND043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 102.87 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9955d5d-638e-444a-8c04-d31955e2ac50")
+		(property "Reference" "#PWR027"
+			(at 102.87 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 102.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75164f63-36b2-4c45-9ddc-9904173a4ca0")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17617,7 +17646,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS123")
-		(at 201.93 261.62 90)
+		(at 207.01 261.62 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17626,7 +17655,7 @@
 		(dnp no)
 		(uuid "baaa3b83-2f55-4e20-a2a0-1ed911133d2b")
 		(property "Reference" "Q5"
-			(at 201.93 267.97 90)
+			(at 207.01 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17634,7 +17663,7 @@
 			)
 		)
 		(property "Value" "CMSN3416K-HF"
-			(at 201.93 270.51 90)
+			(at 207.01 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17642,7 +17671,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 203.835 266.7 0)
+			(at 208.915 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17653,7 +17682,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/QW-JTR77_CMSN3416K-HF_RevA-1847012.pdf"
-			(at 205.74 266.7 0)
+			(at 210.82 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17663,7 +17692,7 @@
 			)
 		)
 		(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-			(at 201.93 261.62 0)
+			(at 207.01 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17974,72 +18003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 29.21 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c513782b-0779-4199-831c-e7fa3aa8f58a")
-		(property "Reference" "#PWR015"
-			(at 29.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 29.21 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83532078-81fc-482a-8a4c-32716bb5c554")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 71.12 96.52 90)
 		(mirror x)
@@ -18103,6 +18066,73 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 29.21 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7e65456-22a5-4635-a5a5-ebea926c75eb")
+		(property "Reference" "#PWR05"
+			(at 29.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 29.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecbeed81-0c4f-415b-8b18-ab1e373d873d")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -18337,72 +18367,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 20.32 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd3de1e0-117e-44db-8c8c-ccc8846a4c65")
-		(property "Reference" "#PWR033"
-			(at 20.32 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 20.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 20.32 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f155844-6a64-4955-ace0-ff8be039add3")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 208.28 120.65 180)
 		(unit 1)
@@ -18556,6 +18520,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 279.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d308b758-f55d-4cc4-89c7-0a6ca755680c")
+		(property "Reference" "#PWR04"
+			(at 279.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 279.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 279.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce876a6e-0515-4f64-8358-109b8cdc4140")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 31.75 110.49 0)
 		(unit 1)
@@ -18694,72 +18725,6 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 187.96 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6f9fa9f-1939-437f-a97b-170b69503832")
-		(property "Reference" "#PWR03"
-			(at 187.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 187.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 187.96 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a2124ad-245c-4d95-80db-6ed28e8577eb")
-		)
-		(instances
-			(project ""
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -18986,6 +18951,72 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 185.42 243.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ded07e50-41fa-49e4-9780-ee9c41579675")
+		(property "Reference" "#PWR012"
+			(at 185.42 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 185.42 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 185.42 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc172f87-3fef-4287-bc48-f7c86263a46f")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -19396,6 +19427,73 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 116.84 245.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e37d81bb-07a6-4f93-ba9c-32b5d0e0d30f")
+		(property "Reference" "#PWR055"
+			(at 113.03 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 120.65 245.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 116.84 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a5889cd-f78c-4ab5-b89d-f49eee39757e")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -20228,72 +20326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 90.17 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eee88f0b-f74e-4d69-86b8-7c82e98600f6")
-		(property "Reference" "#PWR026"
-			(at 90.17 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 90.17 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6014c44-88f1-43bd-bd86-f101bad5e7a9")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 187.96 62.23 180)
 		(unit 1)
@@ -20824,6 +20856,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 20.32 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f32bdcef-74c1-4447-afea-e43f6ce09bb6")
+		(property "Reference" "#PWR033"
+			(at 20.32 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 20.32 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 20.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3da8eb7-7e3f-4d4d-8a24-533ad854fadf")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 31.75 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f45bf472-6638-41bc-b505-e0ce062c6414")
+		(property "Reference" "#PWR025"
+			(at 31.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 31.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 31.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a16eab4-8010-48b8-b26b-7ac9014203e9")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 69.85 256.54 180)
 		(unit 1)
@@ -20896,72 +21062,6 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 127 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f57e43cb-7cb6-470a-bab1-d5c18b95cd3b")
-		(property "Reference" "#PWR028"
-			(at 127 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 127 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 127 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9882291-5488-446e-a812-45d691196ef7")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
