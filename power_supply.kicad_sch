@@ -2392,173 +2392,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148W"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148W"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148W_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148W_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4148WS"
 			(pin_numbers
 				(hide yes)
@@ -4185,304 +4018,6 @@
 				)
 			)
 			(symbol "AO3401A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:BSS123"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BSS123"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BSS123_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSS123_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -9141,6 +8676,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23138"
+			(at 179.07 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "586077e2-bdc7-40a2-afd8-01458d15ce63")
 		)
@@ -9459,6 +9003,119 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 90.17 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ecc9230-fe1e-47ce-8ee8-0a0aac3bcaa9")
+		(property "Reference" "D8"
+			(at 96.52 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 102.87 164.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 94.615 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/home/ostoja/spice_models/diode/1N4148.lib"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "1N4148"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20bf7da9-aa95-4548-bd0d-d58fcc9f2db5")
+		)
+		(pin "2"
+			(uuid "f9433240-9623-45c4-a02c-f8380fa1dc10")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -10440,168 +10097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT5551L")
-		(at 275.59 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26a25079-041c-4c10-a6ad-6252f58fb3fe")
-		(property "Reference" "Q2"
-			(at 275.59 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MMBT5551L"
-			(at 275.59 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 277.495 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "eb6334fd-aac2-44c2-ad0d-f3183103aea2")
-		)
-		(pin "1"
-			(uuid "70b48b00-5163-4fb5-ab5f-9ace13879c21")
-		)
-		(pin "2"
-			(uuid "7b3fa3fc-bb4d-4aac-b4e5-323888a692c4")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 90.17 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dd3c342-43bb-47e1-b141-854cddbccc4b")
-		(property "Reference" "D8"
-			(at 92.71 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 92.71 163.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 94.615 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 90.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 90.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "caaf6efd-9da9-4a5a-9360-7be45862bce6")
-		)
-		(pin "1"
-			(uuid "761c7611-c204-40eb-bc0a-be86cfdb2fc7")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 55.88 45.72 0)
 		(unit 1)
@@ -10662,76 +10157,6 @@
 			(project ""
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 227.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30c5ebb6-7475-44ee-808c-f7247e8f6e12")
-		(property "Reference" "R26"
-			(at 115.57 226.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330"
-			(at 115.57 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 114.808 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efae0b91-734d-45b9-bd6d-d340d28c6976")
-		)
-		(pin "1"
-			(uuid "19040221-4814-49b6-87a3-5ef0ffd8d7ee")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -10964,6 +10389,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT5551L")
+		(at 275.59 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "348d29eb-fa0f-4a92-a215-f2f08197bcbe")
+		(property "Reference" "Q2"
+			(at 272.542 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT5551L"
+			(at 280.924 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 277.495 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2145"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c193b1a9-f7ce-41c0-98ab-9f50ea0aff29")
+		)
+		(pin "1"
+			(uuid "77773a5f-1a02-405b-ae7d-0789b8f1f243")
+		)
+		(pin "2"
+			(uuid "ba420b1b-92c3-4e3a-ad29-56cc64c82ab2")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 265.43 48.26 270)
 		(unit 1)
@@ -11033,94 +10542,6 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 88.9 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3788a67b-8e3a-420a-bd27-7a485f2c0c69")
-		(property "Reference" "D13"
-			(at 91.44 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 91.44 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 93.345 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31cc96ee-0913-4918-b632-8a90c2a1849b")
-		)
-		(pin "1"
-			(uuid "3cea810c-6202-490b-baa6-34f8a57b9e81")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -12142,36 +11563,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 185.42 237.49 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 120.65 256.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5287abad-8f21-468c-a825-7455ebbdf117")
-		(property "Reference" "C2"
-			(at 189.23 238.76 0)
+		(uuid "51ca8385-e17e-47d9-a7ad-8d3586e9784b")
+		(property "Reference" "R25"
+			(at 123.19 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 189.23 236.22 0)
+		(property "Value" "10k"
+			(at 123.19 257.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 184.4548 241.3 0)
+			(at 118.872 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,7 +11600,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 237.49 0)
+			(at 120.65 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12189,7 +11609,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 237.49 0)
+			(at 120.65 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 120.65 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12197,16 +11625,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "7814f6fd-4015-4776-8404-dfc88a8a5dd8")
-		)
 		(pin "1"
-			(uuid "c444625d-2de3-4835-a371-01b30ce79698")
+			(uuid "7e4e4bdf-d156-4fd2-b5cc-864787f8cfb5")
+		)
+		(pin "2"
+			(uuid "38056f0a-e0bb-40d7-94bb-d0fdcf51fbd5")
 		)
 		(instances
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "C2")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12810,6 +12238,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 88.9 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e354441-e1d9-4f74-9e93-f78aec579455")
+		(property "Reference" "D13"
+			(at 95.25 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 101.6 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 93.345 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/home/ostoja/spice_models/diode/1N4148.lib"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "1N4148"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c249dde2-744b-4cc4-9c82-6fb2609a4c7d")
+		)
+		(pin "2"
+			(uuid "5c30778a-44da-41eb-9ea2-69d003229a06")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 228.6 120.65 180)
 		(unit 1)
@@ -13111,6 +12652,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 113.03 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67b633d6-d3c0-4040-a513-263d50cebd66")
+		(property "Reference" "R26"
+			(at 116.586 226.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 116.332 228.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 114.808 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 113.03 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8753a687-8c73-4cbb-bda3-f9dafb8e7d6d")
+		)
+		(pin "2"
+			(uuid "51858abd-2b2d-42e4-81aa-c151d1bfd6db")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 106.68 43.18 0)
 		(unit 1)
@@ -13218,6 +12834,84 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b0b0121-a16f-4a00-ab22-b2876f2d60e9")
+		(property "Reference" "R36"
+			(at 82.55 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 82.55 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 78.232 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 80.01 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a68dcfe-eb04-4f5e-88fe-2b32e557a04a")
+		)
+		(pin "2"
+			(uuid "f432e68f-f3dc-4ea2-8f84-2cf256b069de")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -15021,80 +14715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS123")
-		(at 190.5 261.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8aabe9ca-7665-4b5e-93cc-9dcc44ee38b8")
-		(property "Reference" "Q3"
-			(at 190.5 267.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CMSN3416K-HF"
-			(at 190.5 270.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 188.595 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/QW-JTR77_CMSN3416K-HF_RevA-1847012.pdf"
-			(at 186.69 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-			(at 190.5 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c05ecdb-eca4-4e26-b8b3-d78ae5bcb2be")
-		)
-		(pin "2"
-			(uuid "6c29616c-6917-43d2-a9f8-0319003db017")
-		)
-		(pin "3"
-			(uuid "6c332c4a-3dfe-4667-940e-081dc5d0d371")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 177.8 139.7 90)
 		(unit 1)
@@ -16892,17 +16512,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 80.01 256.54 180)
+		(lib_id "Device:C")
+		(at 185.42 237.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab64d287-6e77-4c15-8f9c-033666cfc28a")
-		(property "Reference" "R36"
-			(at 82.55 255.2699 0)
+		(uuid "ab41efae-f0c4-4e47-89cb-8ebae9edb5c3")
+		(property "Reference" "C2"
+			(at 189.23 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16910,8 +16530,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 82.55 257.8099 0)
+		(property "Value" "100n"
+			(at 189.23 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16919,8 +16539,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 81.788 256.54 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 184.4548 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16929,7 +16549,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 256.54 0)
+			(at 185.42 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16938,7 +16558,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 256.54 0)
+			(at 185.42 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 185.42 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16946,16 +16574,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "04b90595-0ec1-4ac7-9701-77a8e7d2bcb0")
-		)
 		(pin "1"
-			(uuid "3acbdee5-4c96-47a4-a366-7166737afd44")
+			(uuid "0808436b-1d27-456f-be4d-f5b74145faf5")
+		)
+		(pin "2"
+			(uuid "c27bcd9b-687a-45ac-a705-dad82242bace")
 		)
 		(instances
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "R36")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -17639,80 +17267,6 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS123")
-		(at 207.01 261.62 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "baaa3b83-2f55-4e20-a2a0-1ed911133d2b")
-		(property "Reference" "Q5"
-			(at 207.01 267.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CMSN3416K-HF"
-			(at 207.01 270.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 208.915 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/QW-JTR77_CMSN3416K-HF_RevA-1847012.pdf"
-			(at 210.82 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-			(at 207.01 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77835554-b270-4d1d-98dd-c212b201f1c3")
-		)
-		(pin "2"
-			(uuid "0d5df753-e455-4487-a6b8-79ae711d574e")
-		)
-		(pin "3"
-			(uuid "27590a6a-e7e7-41d1-936f-76255eea06bc")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -18863,6 +18417,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C13167"
+			(at 237.49 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4dfb2fb-5e2f-439b-bb5b-3377286caa22")
 		)
@@ -19130,6 +18693,91 @@
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "U3")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 207.01 261.62 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df39e6bf-f221-4e8c-b7dd-72c881975271")
+		(property "Reference" "Q5"
+			(at 203.2 267.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 203.2 270.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 208.915 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 210.82 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 207.01 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 207.01 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c47c1995-7924-4225-b92a-528b765bbb57")
+		)
+		(pin "2"
+			(uuid "dd17edd2-94d6-4927-bec8-64f4ff87c407")
+		)
+		(pin "1"
+			(uuid "8d06c3ba-dd86-4294-af08-6f590c723c28")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "Q5")
+					(unit 1)
 				)
 			)
 		)
@@ -19842,6 +19490,90 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 190.5 261.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e909b9fe-5286-43f5-802b-036f3fc17c5a")
+		(property "Reference" "Q3"
+			(at 187.452 267.716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 187.452 270.256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 188.595 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 186.69 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 190.5 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 190.5 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5b3a3814-1d7a-4297-8275-1d9a0a879e88")
+		)
+		(pin "2"
+			(uuid "84de6aa5-6ff2-41f0-aaed-46aadd4bbaf2")
+		)
+		(pin "1"
+			(uuid "30a6d1ca-cc56-4dd1-a716-1c08dd621d40")
+		)
+		(instances
+			(project "DS100M08KV2"
+				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -21062,76 +20794,6 @@
 			(project "DS100M08KV2"
 				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 256.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f64bf213-bc60-4991-889c-01db591bcc1f")
-		(property "Reference" "R25"
-			(at 123.19 255.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 123.19 257.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 122.428 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed8ff1ba-447c-4f49-8f9c-30c5925a38f4")
-		)
-		(pin "1"
-			(uuid "ab1a16e3-cfda-419f-8242-33d2ce18ca3e")
-		)
-		(instances
-			(project "DS100M08KV2"
-				(path "/e034a6c3-9973-4355-8043-c1e988e27610/78b47647-b6ba-4d31-8265-f09819a98295"
-					(reference "R25")
 					(unit 1)
 				)
 			)
