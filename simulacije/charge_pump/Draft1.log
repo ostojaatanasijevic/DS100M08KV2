@@ -1,0 +1,23 @@
+Circuit: * E:\Elektronika\diff_probe\DS100M08KV2\simulacije\charge_pump\Draft1.asc
+
+Limiting rise time of source v2 to 1e-005
+Limiting fall time of source v2 to 1e-005
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Oct 30 13:28:37 2025
+Total elapsed time: 0.028 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 2841
+traniter = 2814
+tranpoints = 1319
+accept = 1245
+rejected = 74
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1:      29 opcodes  0.1/[0.0]/0.0
+Matrix Compiler2:      60 opcodes  0.1/[0.1]/0.1
+
